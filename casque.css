@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    	background: linear-gradient(#13181d, #20212e, #341b47);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+    list-style: none;
+    margin: 40px;
+    
+}
+header nav h2 {
+    margin:40px;
+}
+header nav h2 a{
+    color: #d33bfd;
+}
+#acheter{
+    color: #d33bfd;
+    border: solid 1px #d33bfd;
+    padding: 4px 18px;
+    border-radius: 6px;
+}
+#acheter:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: #d33bfd;
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+.content1{
+    background-color: #341b47;
+    padding-bottom: 57px;
+    
+}
+.content1 h1{
+    color: white;
+    margin-left: 40px;
+    padding-top: 80px;
+    width: 45%;
+    line-height: 60px;
+    font-size: 50px;
+}
+.content1 h1::first-letter{
+    text-transform: capitalize;
+}
+.content1 p{
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 60%;
+}
+.content1 button{
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 40px;
+    width: 190px;
+    border-color: #d33bfd;
+    border-radius: 6px;
+    background-color: #d33bfd;
+    color: white;
+    cursor: pointer;
+}
+.content1 button:hover{
+    color: #d33bfd;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.content1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 38%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.content1 ul li{
+    border: solid #33314d;
+    padding: 10px 20px;
+    border-radius:17px ;
+    background-color: #33314d;
+    list-style: none;
+}
+.content1 ul li:hover{
+    border: solid #33314d;
+    padding: 10px 20px;
+    border-radius:17px ;
+    filter: brightness(50%);
+    list-style: none;
+    transition: 0.8s;
+    
+}
+.content1 ul li img{
+    width: 120px;
+    height: 120px;
+
+}
+#big_image{
+    height: 450px;
+    width: 390px;
+    position: absolute;
+    right: 70px;
+    top: 180px;
+}
